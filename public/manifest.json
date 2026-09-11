@@ -1,0 +1,40 @@
+{
+  "name": "CivilTrace - Kenya Incident & Safety Alert Network",
+  "short_name": "CivilTrace",
+  "description": "Kenya's community-driven missing persons & stolen vehicles alert network",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#ea580c",
+  "background_color": "#09090b",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Report Alert",
+      "short_name": "Report",
+      "description": "Create an emergency missing person or stolen vehicle alert",
+      "url": "/dashboard/create-alert",
+      "icons": [{ "src": "/favicon.ico", "sizes": "64x64" }]
+    },
+    {
+      "name": "Live Map",
+      "short_name": "Map",
+      "description": "View live GPS incident map",
+      "url": "/map",
+      "icons": [{ "src": "/favicon.ico", "sizes": "64x64" }]
+    },
+    {
+      "name": "OCS Directory",
+      "short_name": "Directory",
+      "description": "Police stations & OCS direct hotline directory",
+      "url": "/directory",
+      "icons": [{ "src": "/favicon.ico", "sizes": "64x64" }]
+    }
+  ]
+}
